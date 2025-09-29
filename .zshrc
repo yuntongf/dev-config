@@ -2,3 +2,5 @@ export PATH=/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin
 
 export WEZTERM_CONFIG_FILE=~/.wezterm.lua
 eval "$(starship init zsh)"
+
+alias git-cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
